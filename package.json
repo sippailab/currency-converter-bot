@@ -1,0 +1,33 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "Facebook chat bot for currency conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sippailab/currency-converter-bot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "macroramesh6@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sippailab/currency-converter-bot/issues"
+  },
+  "homepage": "https://github.com/sippailab/currency-converter-bot#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.0",
+    "crypto": "0.0.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.0",
+    "node-fetch": "^1.6.3",
+    "node-wit": "^4.2.0",
+    "request": "^2.80.0",
+    "unirest": "^0.5.1"
+  }
+}
